@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+# Node
+node_modules
+
+# Default
+.gulp
+.idea
+.vscode
+
 # testing
 /coverage
 
@@ -25,3 +33,21 @@ yarn-error.log*
 
 # my Progrems
 /Desktop.ini
+
+# Dist & tests
+test
+dist
+
+# Logs:
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Special
+Thumbs.db
+Desktop.ini
+.DS_Store*
+ehthumbs.db
+Icon?
+
